@@ -6,6 +6,8 @@ This crate is just like that.
 
 Long story short, I wanted C's paste (`##`) operator to make some fancy generated functions, and this is not it, because nested macros are not expanded depth-first.
 
+If you want a solution to that, [dtolnay/paste](https://github.com/dtolnay/paste) works really well.
+
 ## Usage
 
 ./tests/main.rs
